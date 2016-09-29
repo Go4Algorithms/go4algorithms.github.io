@@ -10,9 +10,9 @@ function show_py_git() {
 function show_download() {
   document.getElementById('code-area').innerHTML =
 
- '<a href="https://github.com/Go4Algorithms/golang/archive/master.zip" class="btn btn-info" role="button">Link Button</a>' +
+ '<a href="https://github.com/Go4Algorithms/golang/archive/master.zip" class="btn btn-info" role="button">Go Code</a>' +
  '&nbsp;&nbsp;&nbsp;' +
- '<a href="https://github.com/Go4Algorithms/python/archive/master.zip" class="btn btn-info" role="button">Link Button</a>'
+ '<a href="https://github.com/Go4Algorithms/python/archive/master.zip" class="btn btn-info" role="button">Python Code</a>'
 
 }
 function reset() {
