@@ -1,194 +1,56 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <!-- Bootstrap Stuff -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
 
-<head>
-
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="">
-    <meta name="author" content="">
-    <base href="http://go4algorithms.github.io/">
     <title>Go4Algorithms</title>
 
 
-    <link href="css/bootstrap.min.css" rel="stylesheet">
-
-
-    <link href="css/landing-page.css" rel="stylesheet">
-
-
-    <link href="http://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
-
-    <style>
-        .navbar {
-            border-color: #e7e7e7;
-        }
-
-        .content-section-a,
-        footer,
-        .navbar {
-            background-color: #f8f8f8;
-            color: #333;
-        }
-
-        .navbar a:link,
-        .navbar-default .navbar-nav>li>a {
-            color: #777;
-        }
-
-        .navbar a:hover,
-        .navbar-default .navbar-nav>li>a:hover {
-            color: rgb(51, 51, 51);
-        }
-
-        .content-section-b {
-            background-color: white;
-            color: #333;
-        }
-
-        body {
-            color: rgb(51, 51, 51);
-            margin-bottom: 5em;
-        }
-
-        .header-container h1,
-        .header-container h2,
-        .header-container h3,
-        .header-container h4 {
-            color: rgb(51, 51, 51);
-        }
-
-        footer {
-            position: absolute;
-            bottom: 0;
-            width: 100%;
-            height: 120px;
-            /* Height of the footer */
-        }
-    </style>
-
-</head>
-
-<body>
-
-
-    <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
-        <div class="container">
-
-            <div class="navbar-header page-scroll">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-                <span class="sr-only">Toggle navigation</span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-            </button>
-                <a class="page-scroll navbar-brand" href="#intro">Go4Algorithms</a>
-            </div>
-
-            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                <ul class="nav navbar-nav navbar-right">
-                    <li>
-                        <a class="page-scroll" href=http://github.com/Go4Algorithms/golang>Go Repository</a>
-                    </li>
-                    <li>
-                        <a class="page-scroll" href=http://github.com/Go4Algorithms/python>Python Repository</a>
-                        <li>
-                            <a class="page-scroll" href=http://go4algorithms.github.io/docs>Documentation</a>
-                        </li>
-                        <li>
-                            <a class="page-scroll" href=http://github.com/Go4Algorithms>Organization Page</a>
-                        </li>
-                </ul>
-            </div>
-
-        </div>
-
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/stylesheet.css" />
+  </head>
+  <body>
+    <nav class="navbar navbar-default navbar-fixed-top">
+      <div class="container">
+          <div class="navbar-header">
+            <a class="navbar-brand" href="#">Go4Algorithms</a>
+          </div>
+          <ul class="nav navbar-nav navbar-right">
+            <li>
+              <a href="https://github.com/Go4Algorithms/golang">Go Repository</a>
+            </li>
+            <li>
+              <a href="https://github.com/Go4Algorithms/python">Python Repository</a>
+            </li>
+            <li>
+              <a href="https://go4algorithms.github.io/docs/">Documentation</a>
+            </li>
+            <li>
+              <a href="https://github.com/Go4Algorithms/">Organization Page</a>
+            </li>
+          </ul>
+      </div>
     </nav>
-
-    <section id="intro">
-
-        <div class="intro-header">
-
-            <div class="container header-container">
-
-                <div class="row">
-                    <div class="intro-image col-md-4"></div>
-                    <div class="intro-message col-md-6">
-                        <h1>Go4Algorithms</h1>
-                        <h3>CLRS Algorithms Implemented in Go</h3>
-
-
-
-
-
-
-                        <a class="github-button" href="https://github.com/Go4Algorithms" data-style="mega" data-count-href="/Go4Algorithms/followers" data-count-api="/users/Go4Algorithms#followers" data-count-aria-label="# followers on GitHub" aria-label="Follow @Go4Algorithms on GitHub">Follow @Go4Algorithms</a><br
-                        />
-
-                        <a class="github-button" href="https://github.com/ntkme/github-buttons" data-icon="octicon-eye" data-style="mega" data-count-href="/ntkme/github-buttons/watchers" data-count-api="/repos/ntkme/github-buttons#subscribers_count" data-count-aria-label="# watchers on GitHub"
-                            aria-label="Watch ntkme/github-buttons on GitHub">Watch</a><br />
-
-                        <a class="github-button" href="https://github.com/Go4Algorithms/golang" data-icon="octicon-star" data-style="mega" data-count-href="/Go4Algorithms/golang/stargazers" data-count-api="/repos/Go4Algorithms/golang#stargazers_count" data-count-aria-label="# stargazers on GitHub"
-                            aria-label="Star Go4Algorithms/golang on GitHub">Star</a><br />
-
-                        <a class="github-button" href="https://github.com/Go4Algorithms/golang/fork" data-icon="octicon-repo-forked" data-style="mega" data-count-href="/Go4Algorithms/golang/network" data-count-api="/repos/Go4Algorithms/golang#forks_count" data-count-aria-label="# forks on GitHub"
-                            aria-label="Fork Go4Algorithms/golang on GitHub">Fork</a> <br />
-
-                        <a class="github-button" href="https://github.com/Go4Algorithms/golang/archive/master.zip" data-icon="octicon-cloud-download" data-style="mega" aria-label="Download Go4Algorithms/golang on GitHub">Download Go Code</a><br />
-
-                        <a class="github-button" href="https://github.com/Go4Algorithms/python/archive/master.zip" data-icon="octicon-cloud-download" data-style="mega" aria-label="Download Go4Algorithms/golang on GitHub">Download Python Code</a>
-
-
-
-                    </div>
-                </div>
-
-            </div>
-
-
+      <div class="project_body">
+        <div class="project-header">
+            <h1>Go4Algorithms</h1>
+            <h1><small>CLRS Algorithms Implemented in Golang</small></h1>
         </div>
+        <div class="span12 centered-pills">
+          <ul class="nav nav-pills">
+            <li role="presentation"><a href="#" onmouseover="show_go_get()">go get</a></li>
+            <li role="presentation"><a href="#" onmouseover="show_go_git()">git (go)</a></li>
+            <li role="presentation"><a href="#" onmouseover="show_py_git()">git (python)</a></li>
+            <li role="presentation"><a href="#" onmouseover="show_download()">Download</a></li>
+          </ul>
+        </div><div id="code-area"></div>
+      </div>
 
-    </section>
-
-    <section id="services">
-
-
-
-
-    </section>
-
-
-    <footer>
-        <div class="container">
-            <div class="row">
-                <div class="col-md-8">
-                    <p class="copyright text-muted small">Copyright &copy; Go4Algorithms All Rights Reserved</p>
-                </div>
-                <div class="col-md-4">
-                    Built with <a href="http://gohugo.io">Hugo</a> and the
-                    <a href="https://github.com/swiftline/github-project-landing-page">Github project Page</a> theme.
-                </div>
-            </div>
-        </div>
-    </footer>
-
-    <script src="/js/jquery-1.11.0.js"></script>
-
-
-    <script src="/js/jquery.easing.min.js"></script>
-
-
-    <script src="/js/bootstrap.min.js"></script>
-
-
-    <script src="js/landing-page.js"></script>
-
-
-    <script async defer src="https://buttons.github.io/buttons.js"></script>
-
-
-
-</body>
-
+        <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js"   integrity="sha256-/SIrNqv8h6QGKDuNoLGA4iret+kyesCkHGzVUUV0shc="   crossorigin="anonymous"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+        <script src="js/show-code.js"></script>
+    </body>
 </html>

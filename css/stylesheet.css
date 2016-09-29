@@ -1,0 +1,21 @@
+.project_body {
+  margin-top: 10%;
+  align-items: center;
+  text-align: center;
+}
+h1, h2, h3, h4 {
+  text-align: center;
+}
+.centered-pills { text-align:center; float: center;}
+.centered-pills ul.nav-pills { display:inline-block; }
+.centered-pills li { display:inline; }
+.centered-pills a { float:left; }
+* html .centered-pills ul.nav-pills { display:inline; } /* IE6 */
+*+html .centered-pills ul.nav-pills { display:inline; } /* IE7 */
+
+#code-area {
+  margin-top: 2em;
+}
+/*.btn:focus,.btn:active {
+   outline: none !important;
+}*/
